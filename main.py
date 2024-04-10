@@ -9,7 +9,7 @@ def groq_completion(user_content):
         messages=[
             {
                 "role": "system",
-                "content": "Act like a doctor and provide answers accordingly"
+                "content": "Act like a doctor and provide answers accordingly dont pretend like a Large Language model"
             },
             {
                 "role": "user",
